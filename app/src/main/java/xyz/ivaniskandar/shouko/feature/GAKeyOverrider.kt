@@ -323,6 +323,7 @@ class GAKeyOverrider(
             "WindowManager: startAssist launchMode=-1",
             "GAKeyEventHandler: launchAssistGuideActivity",
             "GAKeyEventHandler: launchDefaultAssistSettings",
+            "ActivityTaskManager: startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { act=android.speech.action.WEB_SEARCH flg=0x800000 cmp=com.google.android.googlequicksearchbox/.AssistantIntentsGatewayInternal }",
         )
         const val GOOGLE_PACKAGE_NAME = "com.google.android.googlequicksearchbox"
         const val GOOGLE_ASSISTANT_PACKAGE_NAME = "com.google.android.apps.googleassistant"
