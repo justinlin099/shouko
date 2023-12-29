@@ -133,7 +133,7 @@ class GAKeyOverrider(
             if (check) {
                 logcat { "Assistant Button event detected" }
                 if (customAction is DigitalAssistantAction && DigitalAssistantAction.isAssistantGoogle(service)) {
-                    // Why even
+                    // Why even LOL
                     return
                 }
                 if (service.isPackageInstalled(GOOGLE_PACKAGE_NAME) && service.isPackageInstalled(GOOGLE_ASSISTANT_PACKAGE_NAME)) {
